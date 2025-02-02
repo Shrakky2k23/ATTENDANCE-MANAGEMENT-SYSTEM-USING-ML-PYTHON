@@ -1,0 +1,20 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="header">ATTENDANCE MANAGEMENT SYSTEM</h1>
+    <div class="container">
+        <button class="square detector" onclick="runScript('detector.py')">Run Detector</button>
+        <button class="square dataset" onclick="runScript('dataset_generator.py')">Generate Dataset</button>
+        <button class="square trainer" onclick="runScript('trainer.py')">Train Model</button>
+        <div id="output">Output will appear here...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

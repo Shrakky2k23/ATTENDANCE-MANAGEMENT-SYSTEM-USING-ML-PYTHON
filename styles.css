@@ -1,0 +1,52 @@
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 20px;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detector {
+    background-color: #ff4757;
+}
+.dataset {
+    background-color: #1e90ff;
+}
+.trainer {
+    background-color: #2ed573;
+}
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    background: #eee;
+    min-height: 50px;
+    border-radius: 5px;
+}
